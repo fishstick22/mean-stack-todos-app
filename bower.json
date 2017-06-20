@@ -1,0 +1,21 @@
+{
+  "name": "meantodos",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jeff <jeff.burkholder@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fishstick22/mean-stack-todos-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
