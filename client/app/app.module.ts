@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
+import {TodosComponent} from './components/todos.component';
 
 @NgModule({
   imports:      [ BrowserModule, HttpModule ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, TodosComponent],
   bootstrap: [AppComponent]
 })
 
